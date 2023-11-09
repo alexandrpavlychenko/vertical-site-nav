@@ -1,0 +1,1 @@
+const mainNav=document.querySelector(".side-nav");mainNav.classList.remove("side-nav--no-js");const mainNavToggle=document.querySelector(".side-nav__toggle");mainNavToggle.onclick=function(){mainNav.classList.toggle("side-nav--opened")};
